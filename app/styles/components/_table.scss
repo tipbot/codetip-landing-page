@@ -1,0 +1,41 @@
+.table {
+  padding: 0;
+  border: 1px solid $medium-gray;
+}
+
+.table__row {
+  padding: 20px 0;
+  list-style: none;
+  border-bottom: 1px solid $medium-gray;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .grid__item {
+    vertical-align: middle;
+  }
+
+  pre {
+    padding: 3px 5px;
+    border-radius: 3px;
+    background: $lightest-gray;
+    white-space: normal;
+    display: inline-block;
+    margin: 0;
+    text-align: left;
+    color: $red;
+    margin-bottom: 0.5em;
+
+    @include media($break-m) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.table__row-wrapper {
+  padding: 0 1em;
+  @include media($break-m) {
+    padding: 0 1.2em;
+  }
+}

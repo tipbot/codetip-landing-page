@@ -1,0 +1,27 @@
+.pre-footer {
+  background-color: $light-gray;
+  padding: 3em 0;
+  text-align: center;
+
+  .l-container {
+    max-width: 900px;
+  }
+}
+
+footer {
+  background-color: $black;
+  padding: 3em 0;
+
+  text-align: center;
+  color: $white;
+
+  p, img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  img {
+    max-width: 175px;
+    margin-left: 10px;
+  }
+}

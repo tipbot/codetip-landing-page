@@ -1,0 +1,25 @@
+header {
+  display: block;
+  background-color: $blue;
+  border-bottom: 2px solid $dark-blue;
+  padding: 15px 0 10px 0;
+  a {
+    color: $white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.logo {
+
+  img{
+    max-width: 164px;
+  }
+}
+
+.header-right {
+  float: right;
+  padding: 10px 0;
+}

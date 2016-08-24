@@ -1,0 +1,28 @@
+// *************************************
+//
+//   Layout styles
+//
+// *************************************
+
+// -------------------------------------
+//   Container
+// -------------------------------------
+
+.l-container {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1170px;
+}
+
+.l-padding {
+  padding: 4em 0;
+
+  @include media($break-m) {
+    padding: 5em 0;
+  }
+}
+
+.l-padding--bottom {
+  padding-bottom: 3em;
+}

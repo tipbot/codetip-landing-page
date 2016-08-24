@@ -1,0 +1,43 @@
+pre {
+  white-space: normal;
+  display: inline-block;
+  color: $red;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $dark-gray;
+  @include media($break-m) {
+    font-size: 1.12em;
+  }
+}
+
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.8em;
+  text-align: center;
+  margin-top: 2em;
+
+  @include media($break-m) {
+    font-size: 2.1em;
+    margin-top: 1em;
+    text-align: left;
+  }
+}

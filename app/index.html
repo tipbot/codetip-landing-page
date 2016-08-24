@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Codetip.io | A simple and easy way to show  your appreciation for people on Github</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,700" rel="stylesheet">
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <meta name="theme-color" content="#2995c0">
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header>
+      <div class="l-container">
+        <a class="logo" href="http://codetip.io" title="Go to Codetip.io home page.">
+          <img src="images/codetip_logo@2x.png" alt="" />
+        </a>
+        <a href="#how-it-works" class="header-right">How it works</a>
+      </div>
+    </header>
+    <div class="hero">
+        <h1 class="hero__title l-container">A simple and easy way to show  your appreciation for people on Github.</h1>
+    </div>
+    <section class="about grid l-padding">
+      <div class="l-container">
+        <div class="grid__item m--one-half ">
+          <img class="about__image" src="images/people@2x.png" alt="">
+        </div>
+        <div class="grid__item m--one-half">
+          <h2 class="section__title--left">What is codetip?</h2>
+          <p>A great way to show your appreciation for people on Github! It allows you to send lumens to anyone with a Github account. It monitors comments for any mention of @tipbot.</p>
+
+          <h2 class="section__title--left">What are lumens?</h2>
+          <p>Lumens are the native asset of the Stellar network. Native means that lumens are built into the network. Asset is how the network refers to an item of value that is stored on the ledger. One lumen is a unit of digital currency, like a bitcoin. While you can’t hold a lumen in your hand, they are essential to the Stellar network—they contribute to the ability to move
+  money around the world and to conduct transactions between different currencies quickly and securely. Please consult the available exchanges for the latest lumen price.</p>
+        </div>
+      </div>
+    </section>
+    <section class="l-container l-padding" id="how-it-works">
+      <h2 class="section__title section__title--center">How does it work?</h2>
+      <ul class="table">
+        <li class="table__row">
+          <div class="table__row-wrapper">
+            <div class="grid">
+              <div class="grid__item m--one-half">
+                  <pre>
+                    <strong>@tipbot</strong>
+                  </pre>
+              </div>
+              <div class="grid__item m--one-half">
+                Send the default tip of 200 lumens to the creator of the issue you are commenting on.
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="table__row">
+          <div class="table__row-wrapper">
+            <div class="grid">
+              <div class="grid__item m--one-half">
+                <pre>
+                  <strong>@tipbot</strong> &lt;amount&gt;
+                </pre>
+              </div>
+              <div class="grid__item m--one-half">
+                Send the default tip of 200 lumens to the creator of the issue you are commenting on.
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="table__row">
+          <div class="table__row-wrapper">
+            <div class="grid">
+              <div class="grid__item m--one-half">
+                  <pre>
+                    <strong>@tipbot</strong> &lt;github name&gt;
+                  </pre>
+              </div>
+              <div class="grid__item m--one-half">
+                Send the default tip of 200 lumens to the specified github user.
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="table__row">
+          <div class="table__row-wrapper">
+            <div class="grid">
+              <div class="grid__item m--one-half">
+                <div class="table__cell">
+                  <pre>
+                    <strong>@tipbot</strong> &lt;amount&gt; &lt;github name&gt;
+                  </pre>
+                </div>
+              </div>
+              <div class="grid__item m--one-half">
+                Send a custom amount of lumens to the specified github user.
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="table__row">
+          <div class="table__row-wrapper">
+            <div class="grid">
+              <div class="grid__item m--one-half">
+                <div class="table__cell">
+                  <pre>
+                    <strong>@tipbot</strong> empty &lt;payment address or account ID&gt;
+                  </pre>
+                </div>
+              </div>
+              <div class="grid__item m--one-half">
+                Send the default tip of 200 lumens to the creator of the issue you are commenting on.
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div class="l-container example-link">
+        <a href="https://github.com/TbLtzk/Centaurus/issues/65" target="_blank">Example of tipbot in use</a>
+      </div>
+    </section>
+
+    <section class="pre-footer">
+      <div class="l-container">
+        You can also send directly to any github account directly from your Stellar wallet by sending to: <pre>&lt;github_name&gt;*codetio.io</pre>. For example you can send to: <pre>irisli*codetip.io</pre>
+        Check out <a href="https://www.stellar.org/" target="_blank">Stellar website</a> for more information.
+      </div>
+    </section>
+
+    <footer>
+      <div class="l-container">
+        <p>Powered by</p>
+        <a href="http://www.ckl.io" target="_blank">
+          <img src="images/cheesecake_logo@2x.png" alt="">
+        </a>
+      </div>
+    </footer>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

@@ -5,21 +5,37 @@
   background-size: 225px 346px;
 }
 
-.hero__title {
+.hero__wrapper {
+  max-width: 900px;
+  margin: 0 auto;
   vertical-align: middle;
   text-align: center;
+  padding: 40px 0;
+  @include media($break-s2) {
+    padding: 60px 0;
+  }
+
+  @include media($break-m) {
+    padding: 100px 0;
+  }
+}
+
+.hero__title {
+  text-shadow: 0px 0px 20px $blue;
+  padding: 1em 0;
   color: $white;
-  max-width: 900px;
-  padding: 80px 0;
-  font-size: 1.5em;
+  margin: 0;
+  font-size: 1.7em;
 
   @include media($break-s2) {
-    padding: 100px 0;
     font-size: 2em;
   }
 
   @include media($break-m) {
-    padding: 180px 0;
     font-size: 2.3em;
   }
+}
+
+.hero__subhead {
+  color: $white;
 }
